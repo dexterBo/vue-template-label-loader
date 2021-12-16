@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`支持忽略文件 1`] = `null`;
+
+exports[`记录vue文件中的所有的标签 1`] = `
+Array [
+  "style",
+  "template",
+  "div",
+  "a-form",
+  "a-form-item",
+  "a-input",
+  "a-select",
+  "a-select-option",
+  "a-button",
+  "el-select",
+  "el-option",
+  "el-input-number",
+  "a-config-provider",
+  "a-icon",
+  "a-space",
+  "a-page-header",
+  "a-descriptions",
+  "a-descriptions-item",
+  "a",
+  "br",
+  "a-tag",
+  "a-input-number",
+  "a-row",
+  "a-statistic",
+  "a-form-model",
+  "a-form-model-item",
+  "a-date-picker",
+  "a-switch",
+  "a-checkbox-group",
+  "a-checkbox",
+  "a-radio-group",
+  "a-radio",
+  "script",
+]
+`;
