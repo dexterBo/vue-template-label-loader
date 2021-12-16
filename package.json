@@ -1,0 +1,24 @@
+{
+  "name": "vue-tags-loader",
+  "version": "1.0.0",
+  "description": "获取页面标签",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "anymatch": "^3.1.1",
+    "loader-utils": "^2.0.0",
+    "lodash": "^4.17.15",
+    "node-html-parser": "5.1.0",
+    "sync-disk-cache": "^2.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0"
+  }
+}
