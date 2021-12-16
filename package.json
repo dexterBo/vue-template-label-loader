@@ -1,5 +1,5 @@
 {
-  "name": "vue-tags-loader",
+  "name": "vue-template-label-loader",
   "version": "1.0.0",
   "description": "获取页面标签",
   "main": "lib/index.js",
