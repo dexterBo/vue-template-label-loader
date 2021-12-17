@@ -6,7 +6,7 @@
 
 ### 在webpack配置中配置该loader:
 ```
-const { clear } = require(vue-tags-loader/lib/store');
+const { clear } = require(vue-template-label-loader/lib/store');
 
 // 在每次构建时， 都清空上一次存储信息。
 clear();
@@ -16,7 +16,7 @@ module.exports = {
       {
         test: /\.vue$/,
         use: [{
-            loader: 'vue-tags-loader'
+            loader: 'vue-template-label-loader'
           }, {
             loader: 'vue-loader',
             options: {
@@ -32,7 +32,7 @@ module.exports = {
 ### 在vue.config.js中
 
 ```
-const { clear } = require(vue-tags-loader/lib/store');
+const { clear } = require(vue-template-label-loader/lib/store');
 
 // 在每次构建时， 都清空上一次存储信息。
 clear();
@@ -42,8 +42,8 @@ module.exports = {
     config.module
       .rule('vue')
       .set('exclude', [/node_modules/])
-      .use('vue-tags-loader')
-      .loader('vue-tags-loader')
+      .use('vue-template-label-loader')
+      .loader('vue-template-label-loader')
       .end()
   },
 };
