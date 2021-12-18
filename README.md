@@ -1,6 +1,6 @@
 # 记录vue文件模板中标签的loader
 
-记录vue文件中`template`中所有的html标签, 无论是原生的标签还是组件标签， 都会被记录。
+记录vue文件中`template`中所有的html标签。
 
 ## 使用
 
